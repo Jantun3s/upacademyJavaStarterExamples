@@ -9,6 +9,7 @@ class DesafioTest {
 	@Test
 	public void test1() {
 		assertEquals("Thi1s is2 3a T4est", Desafio.order("is2 Thi1s T4est 3a"));
+		// ordenar palavras consoante o numero que contem (ascendente)
 	}
 	
 	@Test

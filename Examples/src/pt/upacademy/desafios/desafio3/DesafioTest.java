@@ -10,6 +10,8 @@ class DesafioTest {
 	public void test1() {
 		assertEquals(30,
 				Desafio.points(new String[] { "1:0", "2:0", "3:0", "4:0", "2:1", "3:1", "4:1", "3:2", "4:2", "4:3" }));
+		
+		// Indicar os pontos que a equipa ganhou ao longo de 10 jogos (vitoria 3, empate 1, derrota 0)
 	}
 
 	@Test
